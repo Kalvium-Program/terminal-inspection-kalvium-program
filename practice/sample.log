@@ -1,0 +1,5 @@
+INFO service=events action=start
+INFO request=/health status=200
+ERROR request=/api/events code=ECONNREFUSED
+INFO request=/health status=200
+ERROR request=/ready code=ECONNREFUSED

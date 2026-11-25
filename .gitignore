@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Assignment sample logs are intentionally tracked
+!practice/sample.log
